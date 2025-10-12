@@ -184,4 +184,5 @@
         <item>центр</item>
         <item>правильно</item>
     </string-array>
+    <string name="home_no_alarm_set">No alarm is set.</string>
 </resources>
