@@ -1,0 +1,9 @@
+    <resources>
+        <!-- Existing strings... -->
+        <string name="app_name">My App</string>
+        <string name="welcome_message">Welcome!</string>
+
+        <!-- ADD YOUR NEW STRING HERE -->
+        <string name="your_new_string_key_name">Your Hardcoded Text Here</string>
+    </resources>
+    

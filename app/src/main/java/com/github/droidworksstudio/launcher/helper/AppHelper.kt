@@ -9,6 +9,7 @@ import android.content.Context
 import android.content.Intent
 import android.content.res.Configuration
 import android.content.res.Resources
+import androidx.fragment.app.Fragment
 import android.net.Uri
 import android.os.Build
 import android.os.VibrationEffect
@@ -26,6 +27,7 @@ import android.widget.TextView
 import androidx.annotation.RequiresApi
 import androidx.appcompat.content.res.AppCompatResources
 import androidx.appcompat.widget.LinearLayoutCompat
+import androidx.compose.ui.semantics.text
 import androidx.navigation.NavOptions
 import com.github.droidworksstudio.common.showLongToast
 import com.github.droidworksstudio.launcher.BuildConfig
@@ -261,7 +263,7 @@ class AppHelper @Inject constructor() {
         val alarmManager = context.getSystemService(Context.ALARM_SERVICE) as AlarmManager
         val nextAlarmClock = alarmManager.nextAlarmClock
 
-        if (nextAlarmClock == null) return "No alarm is set."
+        if (nextAlarmClock == null) return context.getString(R.string.home_no_alarm_set)
 
         val alarmTime = nextAlarmClock.triggerTime
         val formattedTime = SimpleDateFormat("EEE, MMM d hh:mm a", Locale.getDefault()).format(alarmTime)

@@ -10,21 +10,21 @@
     <string name="settings_features_title">Merkmale</string>
     <string name="settings_features_description">Verbessern Sie Ihre Produktivität.</string>
     <string name="settings_look_feel_title">Erscheinungsbild</string>
-    <string name="settings_look_feel_description">Verleihen Sie Ihrem Home-Bildschirm eine persönliche Note.</string>
+    <string name="settings_look_feel_description">Verleihen Sie Ihrem Startbildschirm eine persönliche Note.</string>
     <string name="settings_widgets_title">Widgets</string>
-    <string name="settings_widgets_description">Geben Sie Ihrem Startbildschirm einige Widgets.</string>
-    <string name="settings_advanced_title">Fortschrittlich</string>
+    <string name="settings_widgets_description">Fügen Sie Ihrem Startbildschirm Widgets hinzu.</string>
+    <string name="settings_advanced_title">Erweitert</string>
     <!-- Strings used for look And feel settings -->
-    <string name="look_feel_settings_title">Aussehen und Gefühl</string>
+    <string name="look_feel_settings_title">Erscheinungsbild</string>
     <!-- Strings used for features settings -->
-    <string name="features_settings_title">Merkmale</string>
+    <string name="features_settings_title">Funktionen</string>
     <!-- Strings used for advanced settings -->
     <string name="advanced_settings_title">Erweiterte Einstellungen</string>
     <string name="advanced_settings_app_info">App-Informationen</string>
     <string name="advanced_settings_app_info_description">%1$s</string>
     <string name="advanced_settings_default">Standard-Launcher ändern</string>
     <string name="advanced_settings_restart_title">Launcher neu starten</string>
-    <string name="advanced_settings_restart_description">Haben Sie versucht, es ein- und auszuschalten?</string>
+    <string name="advanced_settings_restart_description">Haben Sie versucht, es aus- und wieder einzuschalten?</string>
     <string name="advanced_settings_backup_restore_title">Sichern/Wiederherstellen</string>
     <string name="advanced_settings_backup_restore_description">Bitte seien Sie vorsichtig mit Ihren Wünschen.</string>
     <string name="advanced_settings_backup_restore_backup_prefs">Sicherungseinstellungen</string>
@@ -33,15 +33,15 @@
     <string name="advanced_settings_backup_restore_restore_apps">Apps wiederherstellen</string>
     <string name="advanced_settings_backup_restore_clear">Alle Daten löschen</string>
     <string name="advanced_settings_backup_restore_clear_title">Einstellungen löschen</string>
-    <string name="advanced_settings_backup_restore_clear_description">Möchten Sie das wirklich tun?</string>
+    <string name="advanced_settings_backup_restore_clear_description">Sind Sie sicher?</string>
     <string name="advanced_settings_backup_restore_clear_yes">Ja</string>
-    <string name="advanced_settings_backup_restore_clear_no">NEIN</string>
+    <string name="advanced_settings_backup_restore_clear_no">Nein</string>
     <string name="advanced_settings_help_feedback_title">Hilfe und Feedback</string>
-    <string name="advanced_settings_community_support_title">Unterstützung der Gemeinschaft</string>
+    <string name="advanced_settings_community_support_title">Unterstützung durch die Community</string>
     <string name="advanced_settings_share_application_title">Anwendung teilen</string>
     <string name="advanced_settings_share_application_description">Erweitern Sie Ihr Erlebnis mit %1$s! Holen Sie es sich jetzt auf fDroid und sehen Sie, worüber alle reden!\n</string>
     <!-- Strings used for fragments for navigation -->
-    <string name="home_fragment_label">Startseite Fragment</string>
+    <string name="home_fragment_label">Startbildschirm Fragment</string>
     <string name="draw_fragment_label">Fragment zeichnen</string>
     <string name="favorite_fragment_label">Lieblingsfragment</string>
     <string name="hidden_fragment_label">Verstecktes Fragment</string>
@@ -55,8 +55,8 @@
     <string name="search">Suchen</string>
     <string name="bottom_dialog_app_rename">Umbenennen</string>
     <string name="bottom_dialog_add_to_home">Zum Startbildschirm hinzufügen</string>
-    <string name="bottom_dialog_order_home_apps">Home Apps bestellen</string>
-    <string name="bottom_dialog_remove_from_home">Vom Home-Bildschirm entfernen</string>
+    <string name="bottom_dialog_order_home_apps">Startbildschirm Apps anordnen</string>
+    <string name="bottom_dialog_remove_from_home">Vom Startbildschirm entfernen</string>
     <string name="bottom_dialog_add_to_hidden">Versteckte App</string>
     <string name="bottom_dialog_remove_to_hidden">Versteckte App entfernen</string>
     <string name="bottom_dialog_add_to_lock">App sperren</string>
@@ -78,16 +78,16 @@
     <string name="settings_display_alarm_clock">Wecker anzeigen</string>
     <string name="settings_display_daily_word">Wort des Tages anzeigen</string>
     <string name="settings_display_app_icons">App-Symbole anzeigen</string>
-    <string name="settings_display_automatic_keyboard">Tastatur automatisch einblenden</string>
+    <string name="settings_display_automatic_keyboard">Tastatur autom. einblenden</string>
     <string name="settings_display_auto_open_apps">Letzte App automatisch öffnen</string>
-    <string name="settings_home_alignment_bottom">Startseite Ausrichtung Unten</string>
+    <string name="settings_home_alignment_bottom">Startbildschirm Ausrichtung Unten</string>
     <string name="settings_search_from_start">Von Anfang an suchen</string>
     <string name="settings_display_lock_settings">Sperreinstellungen</string>
     <string name="settings_display_disable_animations">Animationen deaktivieren</string>
     <string name="settings_appearance_text_size_title">Größe</string>
     <string name="settings_appearance_color_title">Farbe</string>
     <string name="settings_appearance_alignment_title">Ausrichtung</string>
-    <string name="settings_appearance_padding_title">Polsterung</string>
+    <string name="settings_appearance_padding_title">Padding</string>
     <string name="settings_appearance_wallpaper">Benutzerdefiniertes Hintergrundbild</string>
     <string name="appearance_bottom_dialog_text_color_title">Farbe</string>
     <string name="appearance_bottom_dialog_alignment_title">Ausrichtung</string>
@@ -95,7 +95,7 @@
     <string name="appearance_bottom_dialog_desc_time">Zeit\u0020:\u0020 </string>
     <string name="appearance_bottom_dialog_desc_app">Apps\u0020:\u0020</string>
     <string name="appearance_bottom_dialog_desc_app_group">Apps-Gruppe\u0020:\u0020</string>
-    <string name="appearance_bottom_dialog_desc_alarm">Alarm\u0020:\u0020</string>
+    <string name="appearance_bottom_dialog_desc_alarm">Wecker\u0020:\u0020</string>
     <string name="appearance_bottom_dialog_desc_word">Wort\u0020:\u0020</string>
     <string name="appearance_bottom_dialog_desc_battery">Batterie\u0020:\u0020 </string>
     <string name="appearance_bottom_dialog_desc_widget_background">Widget-Hintergrund\u0020:\u0020</string>
@@ -104,7 +104,7 @@
     <string name="settings_swipe_up">Nach oben wischen</string>
     <string name="settings_swipe_down">Nach unten wischen</string>
     <string name="settings_swipe_left">Nach links wischen</string>
-    <string name="settings_swipe_right">Wische nach rechts</string>
+    <string name="settings_swipe_right">Nach rechts wischen</string>
     <string name="settings_select_search_engine">Wählen Sie eine Suchmaschine</string>
     <string name="settings_search_engine">Suchmaschine</string>
     <string name="settings_select_app_language">Wählen Sie eine App-Sprache</string>
@@ -130,7 +130,7 @@
     <string name="settings_actions_show_hidden_list">Versteckte Liste anzeigen</string>
     <string name="settings_actions_open_quick_settings">Schnelleinstellungen öffnen</string>
     <string name="settings_actions_open_launcher_settings">Launcher-Einstellungen öffnen</string>
-    <string name="settings_actions_show_recents">Zuletzt verwendetes anzeigen</string>
+    <string name="settings_actions_show_recents">Zuletzt Verwendetes anzeigen</string>
     <string name="settings_actions_show_widgets">Widgets anzeigen</string>
     <string name="settings_actions_open_power_dialog">Dialogfeld „Power“ öffnen</string>
     <string name="settings_actions_take_a_screenshot">Mach ein Bildschirmfoto</string>
@@ -164,14 +164,14 @@
     <string name="widgets_battery_voltage">Batteriespannung: %1$.2f %2$s</string>
     <string name="widgets_battery_temperature">Batterietemperatur: %1$.2f %2$s</string>
     <string name="widgets_settings_show_weather">Wetter Widget</string>
-    <string name="widgets_settings_show_weather_sun">Sonnenuntergang anzeigen &amp; Sonnenaufgang</string>
+    <string name="widgets_settings_show_weather_sun">Sonnenuntergang &amp; -aufgang anzeigen</string>
     <string name="widgets_settings_show_battery">Batterie-Widget</string>
-    <string name="widgets_settings_display">Anzeige</string>
-    <string name="widgets_settings_select_order">Bestellung auswählen</string>
+    <string name="widgets_settings_display">Anzeigen</string>
+    <string name="widgets_settings_select_order">Anordnung auswählen</string>
     <string name="widget_weather_feels_like">Feels Like : %s%</string>
     <string name="widget_weather_wind">Wind : %1$.2f %2$s</string>
     <string name="widget_weather_humidity">Humidity : %d %%</string>
-    <string name="widget_weather_pressure">Pressure : %d hPa</string>
+    <string name="widget_weather_pressure">Druck : %d hPa</string>
     <string name="acra_crash">Absturz</string>
     <string name="acra_dialog_text">Es tut uns leid, aber bei %1$s ist ein unerwartetes Problem aufgetreten und es muss geschlossen werden. Bitte helfen Sie uns, uns zu verbessern, indem Sie einen Absturzbericht senden.\n\n%1$s schätzt Ihre Privatsphäre und die gesammelten Daten werden ausschließlich zur Verbesserung der App-Stabilität verwendet. Es werden keine persönlichen Daten gesammelt. Vielen Dank für Ihre Unterstützung!</string>
     <string name="acra_send_report">Bericht senden</string>
@@ -184,4 +184,5 @@
         <item>Mitte</item>
         <item>Rechts</item>
     </string-array>
+    <string name="home_no_alarm_set">Kein Wecker eingerichtet.</string>
 </resources>
