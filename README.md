@@ -43,9 +43,9 @@
 
 #### Easy Launcher - the minimalist productivity launcher for focus, productivity, keep your focus on what really counts.
 
-- This application can be found on [F-Droid](https://f-droid.org/packages/app.easy.launcher/) and [Github](https://github.com/HeCodes2Much/EasyLauncher/releases/).
-- The latest stable version is available on the [`main`](https://github.com/HeCodes2Much/EasyLauncher/tree/main) branch, which can be cloned to build the application independently.
-- Additionally, a Github action has been set up to automatically generate an APK for every [release](https://github.com/HeCodes2Much/EasyLauncher/releases).
+- This application can be found on [F-Droid](https://f-droid.org/packages/app.easy.launcher/) and [Github](https://github.com/CodeWorksCreativeHub/EasyLauncher/releases).
+- The latest stable version is available on the [`main`](https://github.com/CodeWorksCreativeHub/EasyLauncher/tree/main) branch, which can be cloned to build the application independently.
+- Additionally, a Github action has been set up to automatically generate an APK for every [release](https://github.com/CodeWorksCreativeHub/EasyLauncher/releases).
 
 We try to balance customizability and minimalization well still being simple :)</h3>
 
@@ -88,7 +88,7 @@ We try to balance customizability and minimalization well still being simple :)<
 
 ## Contribute
 
-- If you are unhappy with any part of the app or feel like missing something, you can open a pull request or an **[issue](https://github.com/HeCodes2Much/EasyLauncher/issues/new/choose)** as you like.
+- If you are unhappy with any part of the app or feel like missing something, you can open a pull request or an **[issue](https://github.com/CodeWorksCreativeHub/EasyLauncher/issues/new/choose)** as you like.
     - Please go through the issues marked as `Bug report`, `Crash report` or `Feature request`.
     - Please can we discuss before sending pull requests.
     - Make pull requests to `main` branch.
