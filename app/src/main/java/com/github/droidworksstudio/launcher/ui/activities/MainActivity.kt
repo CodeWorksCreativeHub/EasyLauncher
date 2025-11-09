@@ -44,7 +44,9 @@ import com.github.droidworksstudio.launcher.utils.Constants
 import com.github.droidworksstudio.launcher.viewmodel.AppViewModel
 import com.github.droidworksstudio.launcher.viewmodel.PreferenceViewModel
 import dagger.hilt.android.AndroidEntryPoint
+import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
 import java.io.BufferedReader
 import java.io.FileOutputStream
 import java.io.InputStreamReader
@@ -427,10 +429,16 @@ class MainActivity : AppCompatActivity() {
             Constants.BACKUP_READ_APPS -> {
                 data?.data?.also { uri ->
                     lifecycleScope.launch {
-                        appHelper.restoreAppInfo(applicationContext, appDao, uri)
+                        try {
+                            withContext(Dispatchers.IO) {
+                                appHelper.restoreAppInfo(applicationContext, appDao, uri)
+                            }
+                            AppReloader.restartApp(applicationContext)
+                        } catch (t: Throwable) {
+                            applicationContext.showLongToast("Restore failed: ${t.message}")
+                        }
                     }
                 }
-                AppReloader.restartApp(applicationContext)
             }
         }
     }
