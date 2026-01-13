@@ -97,14 +97,6 @@ We try to balance customizability and minimalization well still being simple :)<
     - Make pull requests to `main` branch.
 - Any help in translating EasyLauncher into other languages is greatly appreciated. **[Crowdin](https://crowdin.com/project/easy-launcher)**.
 
-## Credits
-
-- This project is partially based on code
-  from [neophtex/AsterLauncher](https://github.com/neophtex/AsterLauncher), though it has been
-  significantly modified.
-
-Sure, here is a revised and improved version of the license description:
-
 ---
 
 ## License
