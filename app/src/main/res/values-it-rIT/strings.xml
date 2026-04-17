@@ -184,5 +184,5 @@
         <item>Centro</item>
         <item>Giusto</item>
     </string-array>
-    <string name="home_no_alarm_set">No alarm is set.</string>
+    <string name="home_no_alarm_set">Non è impostato alcun allarme.</string>
 </resources>
