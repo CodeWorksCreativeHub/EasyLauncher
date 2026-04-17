@@ -183,5 +183,5 @@
         <item>وسط</item>
         <item>يمين</item>
     </string-array>
-    <string name="home_no_alarm_set">No alarm is set.</string>
+    <string name="home_no_alarm_set">لم يتم ضبط أي منبه.</string>
 </resources>
