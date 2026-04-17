@@ -11,11 +11,11 @@
 
 - Yazı Tipi Renkleri: Renk seçicimizi kullanarak yazı tipi renklerini özelleştirin.
 - Konum: Tarihi, Saati ve Uygulamaları Sola, Ortaya veya Sağa Hizalayın.
-- Dolgu: Favori uygulamalar ve tüm uygulamalar arasındaki dolguyu ayarlayın.
+- Dolgu: Öğeler arasındaki boşluğu ayarlayın.
 - Yazı Tipi Boyutu: Ana ekrandaki her öğe için yazı tipi boyutunu ayarlayın.
-- Öğeleri Değiştir: Ana ekrandaki ekran tercihlerini kontrol edin.
+- Görünürlüğü Aç/Kapat: Gerektiğinde öğeleri gösterin veya gizleyin.
 
-<b>Olası Hareketler şunları içerir:</b>
+<b>İzinler:</b>
 
 - Kaydırma Hareketleri: Çeşitli özelliklere erişmek veya ekranlar arasında geçiş yapmak için farklı yönlere (yukarı, aşağı, sola, sağa) kaydırarak gezinin.
 - Çift Dokunma: Önceden tanımlanmış bir eylemi gerçekleştirmek veya bir özelliği etkinleştirmek için ekrana hızlıca iki kez dokunun.
@@ -32,17 +32,17 @@
 - Bildirim Çekmecesi Erişimi: Güncellemeleri ve uyarıları kontrol etmek için bildirim çekmecesini tek dokunuşla açın.
 - Hızlı Ayarlar: Hızlı ayarlara doğrudan ana ekrandan erişerek cihaz ayarlarını hızla yönetin.
 - Güç İletişim Kutusu: Güç iletişim kutusunu kullanarak yeniden başlatma, kapatma ve daha fazlası gibi güç seçeneklerini kolaylıkla kontrol edin.
-- Ekran Görüntüsü Alın: Önemli bilgileri ve anları kaydetmek ve paylaşmak için ekranınızı anında yakalayın.
-- Hareketleri Devre Dışı Bırak: Cihazınızın etkileşim deneyiminizi özelleştirmek için belirli hareketleri geçici veya kalıcı olarak devre dışı bırakın.
+- Ekran görüntüsü: Ekranınızın görüntüsünü anında yakalayın.
+- Hareketleri Devre Dışı Bırak: Gerektiğinde hareketleri kapatın.
 
-<b>İzinler:</b>
+<b>Olası Hareketler şunları içerir:</b>
 
-- android.permission.SET_WALLPAPER: Bu izin, uygulamanın cihazın duvar kağıdını değiştirmesi veya ayarlaması için gereklidir. Uygulamanın ana ekranda veya kilit ekranında görüntülenen duvar kağıdını programlı olarak değiştirmesine olanak tanır.
+- android.permission.SET_WALLPAPER: Bu izin, uygulamanın cihazın duvar kağıdını değiştirmesi veya ayarlaması için gereklidir.
 - android.permission.EXPAND_STATUS_BAR: Bu izin, uygulamanın durum çubuğunu genişletmesine veya daraltmasına olanak tanır ve hızlı ayarlar veya bildirimlerle etkileşim kurma işlevselliği sağlar.
-- android.permission.USE_BIOMETRIC: Bu izin, uygulamanın biyometrik kimlik doğrulama yöntemlerini (parmak izi, yüz tanıma veya iris taraması gibi) kullanabilmesi için gereklidir.
-- android.permission.VIBRATE: Bu izin, uygulamanın, uygulama içinde uyarılar, bildirimler veya özel kullanıcı etkileşimleri için kullanılabilen dokunsal geri bildirim sağlamak üzere cihazın titreşimini kontrol etmesine olanak tanır.
-- android.permission.QUERY_ALL_PACKAGES: Bu izin, uygulamanın cihazda yüklü tüm uygulamaların listesini sorgulamasına ve görüntülemesine olanak tanır. Bu izin gizlilik endişelerine yol açabilir ve uygun kullanım için Google Play tarafından sıklıkla incelenir.
-- android.permission.REQUEST_DELETE_PACKAGES: Bu izin, uygulamanın cihazdan paketlerin (uygulamaların) kaldırılmasını istemesine olanak tanır. Bu izin oldukça kısıtlıdır ve genellikle yalnızca sistem düzeyindeki veya kurumsal uygulamalara verilir.
-- com.android.alarm.permission.SET_ALARM: Bu izin, bir uygulamanın cihazda alarm ayarlayabilmesi için gereklidir. Uygulamanın belirli zamanlarda tetiklenecek alarmları zamanlamasına olanak tanır; bu genellikle saat, hatırlatıcı veya görev uygulamaları tarafından kullanılır.
+- USE_BIOMETRIC: Parmak izi/biyometrik güvenliği etkinleştirin.
+- TİTREŞİM: Dokunsal geri bildirim sağlar.
+- QUERY_ALL_PACKAGES: Yüklü uygulamaları görüntüle.
+- android.permission.REQUEST_DELETE_PACKAGES: Bu izin, uygulamanın cihazdan paketlerin (uygulamaların) kaldırılmasını istemesine olanak tanır.
+- SET_ALARM: Zamanlanmış alarmlar ayarlayın.
 
 Daha fazla ayrıntı için <a href="https://github.com/DroidWorksStudio/EasyLauncher/blob/main/README.md">Github</a> sayfasını ziyaret edin.

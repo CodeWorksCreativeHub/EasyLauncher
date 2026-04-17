@@ -1,48 +1,48 @@
 <b>Funktioner:</b>
 
-- Hurtig adgang til favoritapp: Vis dine mest brugte apps på startskærmen i tekstformat for hurtig adgang, hvilket strømliner dine operationer.
-- Skjul Apps: Skjul nemt apps, du ikke vil have synlige, og hold din startskærm ren og fokuseret på vigtigt indhold.
-- Omdøb Apps: Tilpas dine apps med brugerdefinerede navne, der synkroniseres problemfrit mellem favoritter og alle apps.
-- Låsning: Beskyt dit privatliv og dine data med fingeraftrykslås for udvalgte apps og indstillinger.
-- Ingen internettilladelser: Ingen brug af INTERNET-tilladelser, hvilket sikrer, at dine data forbliver private.
-- Nedbrudsrapporter: Rapportér nedbrud via e-mail, inklusive logfiler til effektiv fejlfinding.
+- Hurtig adgang til foretrukne apps: Vis dine mest brugte apps på startskærmen i et rent tekstformat for hurtig adgang.
+- Skjul apps: Hold din startskærm minimal ved at skjule valgte apps.
+- Omdøb apps: Tilpas appnavne, synkroniseret på tværs af favoritter og applister.
+- App-låsning: Beskyt udvalgte apps og indstillinger med biometrisk godkendelse.
+- Fokus på privatliv: Ingen INTERNET-tilladelser bruges, hvilket sikrer, at dine data forbliver lokale.
+- Nedbrudsrapporter: Rapportér nemt problemer via e-mail med logfiler til fejlfinding.
 
-<b>Personlig Tilpasning:</b>
+<b>Tilpasning:</b>
 
-- Skriftfarver: Tilpas skrifttypefarver med vores farvevælger.
-- Position: Juster Dato, Klokkeslæt og Apps til Venstre, Midten eller Højre.
-- Polstring: Juster polstring mellem yndlingsapps og alle apps.
-- Skriftstørrelse: Indstil skriftstørrelse for hvert element på startskærmen.
-- Skift mellem elementer: Styr visningspræferencer på startskærmen.
+- Skriftfarver: Vælg brugerdefinerede farver med en indbygget vælger.
+- Justering: Placeringsdato, klokkeslæt og apps (venstre, center, højre).
+- Padding: Juster afstanden mellem elementer.
+- Skriftstørrelse: Indstil individuelle størrelser for hvert element på startskærmen.
+- Slå synlighed til/fra: Vis eller skjul elementer efter behov.
 
-<b>Mulige bevægelser omfatter:</b>
+<b>Bevægelser:</b>
 
-- Strygebevægelser: Naviger ved at stryge i forskellige retninger (op, ned, venstre, højre) for at tilgå funktioner eller skifte mellem skærme.
-- Dobbelttryk: Tryk hurtigt to gange på skærmen for at udføre en foruddefineret handling eller aktivere en funktion.
-- Urinteraktion: Tryk på uret for at få vist yderligere oplysninger såsom alarmer eller verdensur.
-- Datointeraktion: Tryk på datoen for at åbne kalenderappen til planlægning og planlægning.
-- Batteriikon: Tryk på batteriikonet for at få adgang til oplysninger om batteriforbrug.
+- Swipes: Naviger med op-, ned-, venstre- og højrebevægelser.
+- Dobbelttryk: Udløs brugerdefinerede handlinger med det samme.
+- Tryk på ur: Se alarmer eller verdensur.
+- Dato Tryk: Åbn kalender.
+- Batteritryk: Se batteriforbrug.
 
-<b>Mulige handlinger omfatter:</b>
+<b>Handlinger:</b>
 
-- Åbn specificeret app: Start øjeblikkeligt enhver app, du vælger, for problemfri adgang til dine favoritter.
-- Vis appliste: Se og administrer dine installerede apps effektivt med en omfattende listevisning.
-- Skærmlåsning: Beskyt din enhed og beskyt dit privatliv med hurtig og praktisk skærmlåsning.
-- Vis nyligt åbnede apps: Få adgang til nyligt brugte apps uden besvær for hurtig multitasking.
-- Adgang til meddelelsesskuffe: Åbn meddelelsesskuffen med et enkelt tryk for at tjekke opdateringer og advarsler.
-- Hurtige indstillinger: Administrer enhedsindstillinger hurtigt ved at få adgang til hurtige indstillinger direkte fra startskærmen.
-- Strømdialog: Styr strømindstillinger som genstart, sluk og mere med lethed ved hjælp af strømdialogen.
-- Tag et skærmbillede: Tag din skærm med det samme for at gemme og dele vigtige oplysninger og øjeblikke.
-- Deaktiver Bevægelser: Deaktiver midlertidigt eller permanent specifikke bevægelser for at tilpasse din enheds interaktionsoplevelse.
+- Start apps: Åbn en hvilken som helst valgt app hurtigt.
+- Appliste: Se og administrer alle installerede apps.
+- Skærmlås: Lås din enhed med det samme.
+- Seneste apps: Få adgang til senest brugte apps.
+- Notifikationer: Åbn notifikationsskuffen.
+- Hurtige indstillinger: Få hurtig adgang til systemkontroller.
+- Tænd/sluk-menu: Genstart, sluk og mere.
+- Skærmbillede: Tag et skærmbillede med det samme.
+- Deaktiver bevægelser: Slå bevægelser fra, når det er nødvendigt.
 
 <b>Tilladelser:</b>
 
-- android.permission.SET_WALLPAPER: Denne tilladelse er nødvendig for, at appen kan ændre eller indstille enhedens baggrund. Det lader appen programmatisk ændre den baggrund, der vises på start- eller låseskærmen.
-- android.permission.EXPAND_STATUS_BAR: Denne tilladelse giver appen mulighed for at udvide eller skjule statuslinjen, hvilket giver funktionalitet til at interagere med de hurtige indstillinger eller meddelelser.
-- android.permission.USE_BIOMETRIC: Denne tilladelse er nødvendig for, at appen kan bruge biometriske godkendelsesmetoder (såsom fingeraftryk, ansigtsgenkendelse eller irisscanning).
-- android.permission.VIBRATE: Denne tilladelse giver appen mulighed for at styre enhedens vibrator for at give haptisk feedback, som kan bruges til advarsler, meddelelser eller brugerdefinerede brugerinteraktioner i appen.
-- android.permission.QUERY_ALL_PACKAGES: Denne tilladelse giver appen mulighed for at forespørge og se listen over alle installerede apps på enheden. Denne tilladelse kan give anledning til bekymringer om privatlivets fred og bliver ofte gennemgået af Google Play til passende brug.
-- android.permission.REQUEST_DELETE_PACKAGES: Denne tilladelse giver appen mulighed for at anmode om afinstallation af pakker (apps) fra enheden. Denne tilladelse er stærkt begrænset og gives normalt kun til apps på systemniveau eller virksomhedsniveau.
-- com.android.alarm.permission.SET_ALARM: Denne tilladelse er nødvendig for, at en app kan indstille alarmer på enheden. Det giver appen mulighed for at planlægge alarmer, der vil udløse på bestemte tidspunkter, almindeligvis brugt af ur-, påmindelses- eller opgaveapps.
+- SET_WALLPAPER: Skift enhedens baggrundsbillede.
+- EXPAND_STATUS_BAR: Få adgang til notifikationer og hurtigindstillinger.
+- USE_BIOMETRIC: Aktiver fingeraftryks-/biometrisk sikkerhed.
+- VIBRER: Giv haptisk feedback.
+- QUERY_ALL_PACKAGES: Vis installerede apps.
+- REQUEST_DELETE_PACKAGES: Anmod om afinstallation af app (begrænset).
+- SET_ALARM: Planlæg alarmer.
 
-Besøg <a href="https://github.com/DroidWorksStudio/EasyLauncher/blob/main/README.md">Github</a> siden for flere detaljer.
+Flere detaljer: <a href="https://github.com/DroidWorksStudio/EasyLauncher/blob/main/README.md">Github</a>

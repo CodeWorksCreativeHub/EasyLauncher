@@ -11,13 +11,13 @@
 
 - Lettertypekleuren: pas de lettertypekleuren aan met onze kleurenkiezer.
 - Positie: lijn datum, tijd en apps uit naar links, midden of rechts.
-- Opvulling: Pas de opvulling aan tussen favoriete apps en alle apps.
+- Opvulling: Pas de afstand tussen elementen aan.
 - Lettergrootte: stel de lettergrootte in voor elk element op het startscherm.
-- Items wisselen: beheer weergavevoorkeuren op het startscherm.
+- Zichtbaarheid in- of uitschakelen: Toon of verberg elementen naar behoefte.
 
 <b>Mogelijke gebaren zijn:</b>
 
-- Veegbewegingen: navigeer door in verschillende richtingen te vegen (omhoog, omlaag, links, rechts) om toegang te krijgen tot verschillende functies of om tussen schermen te schakelen.
+- Veegbewegingen: Navigeer met behulp van de bewegingen omhoog, omlaag, naar links en naar rechts.
 - Dubbeltikken: tik tweemaal snel op het scherm om een vooraf gedefinieerde actie uit te voeren of een functie te activeren.
 - Klokinteractie: tik op de klok om aanvullende informatie weer te geven, zoals alarmen of wereldklok.
 - Datuminteractie: tik op de datum om de kalender-app te openen voor planning en planning.
@@ -33,16 +33,16 @@
 - Snelle instellingen: beheer apparaatinstellingen snel door rechtstreeks vanuit het startscherm toegang te krijgen tot de snelle instellingen.
 - Uitschakelopties: beheer eenvoudig energieopties zoals opnieuw opstarten, uitschakelen en meer met behulp van de energiedialoog.
 - Maak een screenshot: leg uw scherm direct vast om belangrijke informatie en momenten op te slaan en te delen.
-- Gebaren uitschakelen: schakel specifieke gebaren tijdelijk of permanent uit om de interactie-ervaring met uw apparaat aan te passen.
+- Gebaren uitschakelen: Schakel gebaren uit wanneer nodig.
 
 <b>Rechten:</b>
 
-- android.permission.SET_WALLPAPER: Deze toestemming is nodig zodat de app de achtergrond van het apparaat kan wijzigen of instellen. Hiermee kan de app de achtergrond op het startscherm of vergrendelscherm programmatisch aanpassen.
+- SET_WALLPAPER: Wijzig de achtergrond van het apparaat.
 - android.permission.EXPAND_STATUS_BAR: Met deze machtiging kan de app de statusbalk uitvouwen of samenvouwen, zodat u met de snelle instellingen of meldingen kunt communiceren.
-- android.permission.USE_BIOMETRIC: Deze toestemming is nodig zodat de app biometrische authenticatiemethoden kan gebruiken (zoals vingerafdruk, gezichtsherkenning of irisscans).
-- android.permission.VIBRATE: Met deze toestemming kan de app de trilfunctie van het apparaat bedienen om haptische feedback te geven. Deze feedback kan worden gebruikt voor waarschuwingen, meldingen of aangepaste gebruikersinteracties binnen de app.
-- android.permission.QUERY_ALL_PACKAGES: Met deze machtiging kan de app de lijst met alle geïnstalleerde apps op het apparaat opvragen en bekijken. Deze toestemming kan zorgen over de privacy opleveren en wordt door Google Play vaak gecontroleerd op gepast gebruik.
-- android.permission.REQUEST_DELETE_PACKAGES: Met deze machtiging kan de app verzoeken om pakketten (apps) van het apparaat te verwijderen. Deze machtiging is zeer beperkt en wordt doorgaans alleen verleend aan apps op systeemniveau of voor bedrijfsapps.
-- com.android.alarm.permission.SET_ALARM: Deze machtiging is nodig zodat een app alarmen op het apparaat kan instellen. Hiermee kan de app alarmen plannen die op specifieke tijdstippen worden geactiveerd. Deze worden vaak gebruikt door klok-, herinnerings- of taken-apps.
+- USE_BIOMETRIC: Schakel vingerafdruk-/biometrische beveiliging in.
+- TRILLEN: Zorg voor haptische feedback.
+- QUERY_ALL_PACKAGES: Toon geïnstalleerde apps.
+- android.permission.REQUEST_DELETE_PACKAGES: Met deze machtiging kan de app verzoeken om pakketten (apps) van het apparaat te verwijderen.
+- SET_ALARM: Alarmen plannen.
 
 Bezoek de <a href="https://github.com/DroidWorksStudio/EasyLauncher/blob/main/README.md">Github</a> pagina voor meer details.

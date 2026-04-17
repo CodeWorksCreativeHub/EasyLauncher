@@ -1,48 +1,48 @@
 <b>Vlastnosti:</b>
 
-- Rychlý přístup k oblíbené aplikaci: Zobrazte své nejpoužívanější aplikace na domovské obrazovce v textovém formátu pro rychlý přístup a zefektivněte své operace.
-- Skrýt aplikace: Snadno skryjte aplikace, které nechcete, aby byly viditelné, a udržujte svou domovskou obrazovku čistou a zaměřenou na základní obsah.
-- Přejmenovat aplikace: Přizpůsobte si své aplikace vlastními názvy, které se hladce synchronizují mezi oblíbenými a všemi aplikacemi.
-- Uzamčení: Zabezpečte své soukromí a data pomocí zámku otisků prstů pro vybrané aplikace a nastavení.
-- Žádná oprávnění k internetu: Žádné používání oprávnění INTERNET, což zajišťuje, že vaše data zůstanou soukromá.
-- Zprávy o selhání: Zprávy o selhání prostřednictvím e-mailu, včetně souborů protokolu pro efektivní řešení problémů.
+- Rychlý přístup k oblíbeným aplikacím: Zobrazte nejpoužívanější aplikace na domovské obrazovce v přehledném textovém formátu pro rychlý přístup.
+- Skrýt aplikace: Minimalizujte domovskou obrazovku skrytím vybraných aplikací.
+- Přejmenování aplikací: Přizpůsobte si názvy aplikací, synchronizované mezi oblíbenými a seznamy aplikací.
+- Zamykání aplikací: Chraňte vybrané aplikace a nastavení pomocí biometrického ověřování.
+- Zaměřeno na soukromí: Nepoužívá se žádné oprávnění k přístupu k internetu, což zajišťuje, že vaše data zůstanou lokální.
+- Zprávy o selhání: Snadno hlaste problémy e-mailem s protokoly pro ladění.
 
-<b>Personalizované přizpůsobení:</b>
+<b>Přizpůsobení:</b>
 
-- Barvy písma: Přizpůsobte barvy písma pomocí našeho nástroje pro výběr barev.
-- Pozice: Zarovnejte datum, čas a aplikace doleva, na střed nebo doprava.
-- Odsazení: Upravte odsazení mezi oblíbenými aplikacemi a všemi aplikacemi.
-- Velikost písma: Nastavte velikost písma pro každý prvek na domovské obrazovce.
-- Přepnout položky: Ovládání předvoleb zobrazení na domovské obrazovce.
+- Barvy písma: Vyberte si vlastní barvy pomocí vestavěného nástroje pro výběr.
+- Zarovnání: Umístění data, času a aplikací (vlevo, na střed, vpravo).
+- Odsazení: Úprava rozteče mezi prvky.
+- Velikost písma: Nastavení individuálních velikostí pro každý prvek domovské obrazovky.
+- Přepnout viditelnost: Zobrazení nebo skrytí prvků podle potřeby.
 
-<b>Mezi možná gesta patří:</b>
+<b>Gesta:</b>
 
-- Gesta přejetí: Procházejte přejížděním v různých směrech (nahoru, dolů, doleva, doprava), abyste získali přístup k různým funkcím nebo se pohybovali mezi obrazovkami.
-- Dvojité klepnutí: Dvojím rychlým klepnutím na obrazovku provedete předem definovanou akci nebo aktivujete funkci.
-- Interakce s hodinami: Klepnutím na hodiny zobrazíte další informace, jako jsou budíky nebo světový čas.
-- Interakce s datem: Klepnutím na datum otevřete aplikaci kalendáře pro plánování a plánování.
-- Ikona baterie: Klepnutím na ikonu baterie zobrazíte podrobnosti o využití baterie.
+- Přejetí prstem: Navigace pomocí gest nahoru, dolů, doleva a doprava.
+- Dvojité klepnutí: Okamžitě spustí vlastní akce.
+- Klepnutí na hodiny: Zobrazení budíků nebo světového času.
+- Klepnutí na datum: Otevření kalendáře.
+- Klepnutí na baterii: Zobrazení využití baterie.
 
-<b>Možné akce zahrnují:</b>
+<b>Akce:</b>
 
-- Otevřít specifikovanou aplikaci: Okamžitě spusťte libovolnou aplikaci, kterou si vyberete, abyste získali bezproblémový přístup ke svým oblíbeným položkám.
-- Zobrazení seznamu aplikací: Zobrazte a spravujte efektivně nainstalované aplikace pomocí zobrazení komplexního seznamu.
-- Uzamčení obrazovky: Zabezpečte své zařízení a chraňte své soukromí pomocí rychlého a pohodlného uzamčení obrazovky.
-- Zobrazit naposledy otevřené aplikace: Snadný přístup k nedávno použitým aplikacím pro rychlý multitasking.
-- Přístup k zásuvce oznámení: Otevřete zásuvku oznámení jediným klepnutím a zkontrolujte aktualizace a upozornění.
-- Rychlá nastavení: Spravujte nastavení zařízení rychle přístupem k rychlým nastavením přímo z domovské obrazovky.
-- Dialogové okno napájení: Pomocí dialogového okna napájení můžete snadno ovládat možnosti napájení, jako je restart, vypnutí a další.
-- Pořiďte snímek obrazovky: Okamžitě zachyťte obrazovku a uložte a sdílejte důležité informace a okamžiky.
-- Deaktivovat gesta: Dočasně nebo trvale deaktivujte konkrétní gesta, abyste si přizpůsobili zážitek z interakce se zařízením.
+- Spouštění aplikací: Rychlé otevření jakékoli vybrané aplikace.
+- Seznam aplikací: Zobrazení a správa všech nainstalovaných aplikací.
+- Zámek obrazovky: Okamžitě uzamkněte zařízení.
+- Nedávné aplikace: Přístup k nedávno použitým aplikacím.
+- Oznámení: Otevřít zásuvku oznámení.
+- Rychlé nastavení: Rychlý přístup k ovládacím prvkům systému.
+- Nabídka napájení: Restart, vypnutí a další.
+- Snímek obrazovky: Okamžitě pořiďte snímek obrazovky.
+- Zakázat gesta: Vypněte gesta v případě potřeby.
 
 <b>Oprávnění:</b>
 
-- android.permission.SET_WALLPAPER: Toto oprávnění je potřeba, aby aplikace mohla změnit nebo nastavit tapetu zařízení. Umožňuje aplikaci programově upravit tapetu zobrazenou na domovské nebo zamykací obrazovce.
-- android.permission.EXPAND_STATUS_BAR: Toto oprávnění umožňuje aplikaci rozbalit nebo sbalit stavový řádek a poskytnout funkce pro interakci s rychlými nastaveními nebo oznámeními.
-- android.permission.USE_BIOMETRIC: Toto oprávnění je potřeba, aby aplikace mohla používat metody biometrického ověřování (jako je otisk prstu, rozpoznávání obličeje nebo skenování duhovky).
-- android.permission.VIBRATE: Toto oprávnění umožňuje aplikaci ovládat vibrátor zařízení a poskytovat hmatovou zpětnou vazbu, kterou lze použít pro upozornění, oznámení nebo vlastní uživatelské interakce v rámci aplikace.
-- android.permission.QUERY_ALL_PACKAGES: Toto oprávnění umožňuje aplikaci dotazovat se a zobrazit seznam všech nainstalovaných aplikací v zařízení. Toto povolení může vyvolat obavy o ochranu soukromí a Google Play ho často kontroluje, zda je vhodné použít.
-- android.permission.REQUEST_DELETE_PACKAGES: Toto oprávnění umožňuje aplikaci požádat o odinstalaci balíčků (aplikací) ze zařízení. Toto oprávnění je přísně omezeno a obvykle je uděleno pouze aplikacím na úrovni systému nebo podnikovým aplikacím.
-- com.android.alarm.permission.SET_ALARM: Toto oprávnění je nezbytné, aby aplikace mohla na zařízení nastavovat budíky. Umožňuje aplikaci naplánovat alarmy, které se spustí v konkrétních časech, běžně používané aplikacemi s hodinami, připomínkami nebo úkoly.
+- SET_WALLPAPER: Změna tapety zařízení.
+- EXPAND_STATUS_BAR: Přístup k oznámením a rychlému nastavení.
+- USE_BIOMETRIC: Povolit zabezpečení otiskem prstu/biometrické zabezpečení.
+- VIBRACE: Poskytuje haptickou zpětnou vazbu.
+- QUERY_ALL_PACKAGES: Zobrazení nainstalovaných aplikací.
+- REQUEST_DELETE_PACKAGES: Požadavek na odinstalaci aplikace (omezeno).
+- SET_ALARM: Naplánovat alarmy.
 
-Pro více podrobností navštivte stránku <a href="https://github.com/DroidWorksStudio/EasyLauncher/blob/main/README.md">Github</a> .
+Více informací: <a href="https://github.com/DroidWorksStudio/EasyLauncher/blob/main/README.md">Github</a>

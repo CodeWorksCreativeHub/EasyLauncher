@@ -11,13 +11,13 @@ Schnellzugriff auf Lieblings-Apps: Zeigen Sie Ihre am häufigsten verwendeten Ap
 
 - Schriftfarben: Passen Sie die Schriftfarben mit unserem Farbwähler an.
 - Position: Richten Sie Datum, Uhrzeit und Apps links, mittig oder rechts aus.
-- Polsterung: Passen Sie die Polsterung zwischen Lieblings-Apps und allen Apps an.
+- Padding: Passen Sie den Abstand zwischen den Elementen an.
 - Schriftgröße: Legen Sie die Schriftgröße für jedes Element auf dem Startbildschirm fest.
-- Elemente umschalten: Anzeigeeinstellungen auf dem Startbildschirm steuern.
+- Sichtbarkeit umschalten: Elemente nach Bedarf ein- oder ausblenden.
 
 <b>Mögliche Gesten sind:</b>
 
-- Wischbewegungen: Navigieren Sie durch Wischen in verschiedene Richtungen (nach oben, unten, links, rechts), um auf verschiedene Funktionen zuzugreifen oder zwischen Bildschirmen zu wechseln.
+- Wischgesten: Navigieren Sie mit Wischgesten nach oben, unten, links und rechts.
 - Doppeltippen: Tippen Sie schnell zweimal auf den Bildschirm, um eine vordefinierte Aktion auszuführen oder eine Funktion zu aktivieren.
 - Uhr-Interaktion: Tippen Sie auf die Uhr, um zusätzliche Informationen wie Alarme oder die Weltzeituhr anzuzeigen.
 - Datumsinteraktion: Tippen Sie auf das Datum, um die Kalender-App zum Terminieren und Planen zu öffnen.
@@ -29,20 +29,20 @@ Schnellzugriff auf Lieblings-Apps: Zeigen Sie Ihre am häufigsten verwendeten Ap
 - App-Liste anzeigen: Zeigen Sie Ihre installierten Apps effizient an und verwalten Sie sie mit einer umfassenden Listenanzeige.
 - Bildschirmsperre: Sichern Sie Ihr Gerät und schützen Sie Ihre Privatsphäre mit einer schnellen und bequemen Bildschirmsperre.
 - Zuletzt geöffnete Apps anzeigen: Greifen Sie mühelos auf zuletzt verwendete Apps zu, um schnelles Multitasking zu ermöglichen.
-- Zugriff auf das Benachrichtigungsfach: Öffnen Sie das Benachrichtigungsfach mit einem einzigen Fingertipp, um Aktualisierungen und Warnungen zu prüfen.
+- Benachrichtigungen: Benachrichtigungsleiste öffnen.
 - Schnelleinstellungen: Verwalten Sie die Geräteeinstellungen schnell, indem Sie direkt vom Startbildschirm aus auf die Schnelleinstellungen zugreifen.
-- Energiedialogfeld: Steuern Sie Energieoptionen wie Neustart, Ausschalten und mehr ganz einfach über das Energiedialogfeld.
+- Power-Menü: Neustart, Ausschalten und mehr.
 - Machen Sie einen Screenshot: Erfassen Sie Ihren Bildschirm sofort, um wichtige Informationen und Momente zu speichern und zu teilen.
-- Gesten deaktivieren: Deaktivieren Sie vorübergehend oder dauerhaft bestimmte Gesten, um die Interaktion mit Ihrem Gerät individuell anzupassen.
+- Gesten deaktivieren: Schalten Sie die Gesten bei Bedarf aus.
 
 <b>Berechtigungen:</b>
 
-- android.permission.SET_WALLPAPER: Diese Berechtigung wird benötigt, damit die App das Hintergrundbild des Geräts ändern oder festlegen kann. Es ermöglicht der App, das auf dem Start- oder Sperrbildschirm angezeigte Hintergrundbild programmgesteuert zu ändern.
+- android.permission.SET_WALLPAPER: Diese Berechtigung wird benötigt, damit die App das Hintergrundbild des Geräts ändern oder festlegen kann.
 - android.permission.EXPAND_STATUS_BAR: Diese Berechtigung ermöglicht es der App, die Statusleiste zu erweitern oder zu reduzieren und bietet so Funktionen zur Interaktion mit den Schnelleinstellungen oder Benachrichtigungen.
-- android.permission.USE_BIOMETRIC: Diese Berechtigung wird benötigt, damit die App biometrische Authentifizierungsmethoden (wie Fingerabdruck, Gesichtserkennung oder Iris-Scan) verwenden kann.
-- android.permission.VIBRATE: Diese Berechtigung ermöglicht es der App, den Vibrator des Geräts zu steuern, um haptisches Feedback zu geben, das für Warnungen, Benachrichtigungen oder benutzerdefinierte Benutzerinteraktionen innerhalb der App verwendet werden kann.
-- android.permission.QUERY_ALL_PACKAGES: Diese Berechtigung erlaubt der App, die Liste aller auf dem Gerät installierten Apps abzufragen und anzuzeigen. Diese Berechtigung kann Datenschutzbedenken aufwerfen und wird von Google Play häufig auf angemessene Verwendung überprüft.
-- android.permission.REQUEST_DELETE_PACKAGES: Mit dieser Berechtigung kann die App die Deinstallation von Paketen (Apps) vom Gerät anfordern. Diese Berechtigung ist stark eingeschränkt und wird normalerweise nur Apps auf Systemebene oder Unternehmens-Apps gewährt.
-- com.android.alarm.permission.SET_ALARM: Diese Berechtigung ist erforderlich, damit eine App Alarme auf dem Gerät einstellen kann. Damit kann die App Alarme planen, die zu bestimmten Zeiten ausgelöst werden. Diese werden häufig von Uhr-, Erinnerungs- oder Aufgaben-Apps verwendet.
+- USE_BIOMETRIC: Fingerabdruck-/biometrische Sicherheit aktivieren.
+- VIBRIEREN: Bietet haptisches Feedback.
+- QUERY_ALL_PACKAGES: Installierte Apps anzeigen.
+- android.permission.REQUEST_DELETE_PACKAGES: Mit dieser Berechtigung kann die App die Deinstallation von Paketen (Apps) vom Gerät anfordern.
+- SET_ALARM: Alarme planen.
 
 Weitere Einzelheiten finden Sie auf der <a href="https://github.com/DroidWorksStudio/EasyLauncher/blob/main/README.md">Github-Seite</a> .

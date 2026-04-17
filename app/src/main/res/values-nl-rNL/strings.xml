@@ -184,5 +184,5 @@
         <item>Midden</item>
         <item>Rechts</item>
     </string-array>
-    <string name="home_no_alarm_set">No alarm is set.</string>
+    <string name="home_no_alarm_set">Er is geen alarm ingesteld.</string>
 </resources>
