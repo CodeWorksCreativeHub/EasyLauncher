@@ -184,5 +184,5 @@
         <item>מרכז</item>
         <item>ימין</item>
     </string-array>
-    <string name="home_no_alarm_set">No alarm is set.</string>
+    <string name="home_no_alarm_set">לא הוגדרה אזעקה.</string>
 </resources>
