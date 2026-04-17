@@ -184,5 +184,5 @@
         <item>Mitte</item>
         <item>Rechts</item>
     </string-array>
-    <string name="home_no_alarm_set">No alarm is set.</string>
+    <string name="home_no_alarm_set">Es ist kein Alarm eingestellt.</string>
 </resources>
