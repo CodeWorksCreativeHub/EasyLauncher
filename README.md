@@ -37,7 +37,7 @@
 	    	<br>
             <a href='https://gitlab.com/fdroid/fdroiddata/-/blob/master/metadata/app.easy.launcher.yml'><img alt="F-Droid (including pre-releases)" src="https://img.shields.io/f-droid/v/app.easy.launcher?color=FFB86C&style=flat-square&label=F-Droid"></a>
             <br>
-            <img src='https://img.shields.io/badge/Maintained-yes-FF5555?style=flat-square' alt="Maintained">
+            <img src='https://img.shields.io/badge/Maintained-NO-FF5555?style=flat-square' alt="Maintained">
         </p>
     </div>
 </div>
